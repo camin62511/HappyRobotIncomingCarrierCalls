@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  api:
+    image: happyrobot-api
+    container_name: happyrobot_api
+    ports:
+      - "8001:5000"
+    environment:
+      LOADS_API_KEY: dev-secret-key
+      AWS_DEFAULT_REGION: us-east-2
+    volumes:
+      - ~/.aws:/root/.aws:ro

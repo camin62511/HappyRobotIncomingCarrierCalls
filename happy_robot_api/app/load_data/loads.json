@@ -1,0 +1,17 @@
+{
+  "load1": {
+    "load_id": "LD123456789",
+    "origin": "Chicago, Illinois",
+    "destination": "Atlanta, Georgia",
+    "pickup_datetime": "2026-02-02T08:00:00",
+    "delivery_datetime": "2026-02-03T18:30:00",
+    "equipment_type": "Dry Van",
+    "loadboard_rate": 1250.75,
+    "notes": "Handle with care, fragile items included.",
+    "weight": 18000,
+    "commodity_type": "Electronics",
+    "num_of_pieces": 120,
+    "miles": 715,
+    "dimensions": "53ft x 8.5ft x 9ft"
+  }
+}
